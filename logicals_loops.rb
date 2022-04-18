@@ -31,7 +31,7 @@ x = 0
 
 while x <= 95 do 
     puts "keep running because I am the number #{x}"
-    x += 5
+    x += 1
     puts "sum... now x = #{x}"
 end
 
@@ -40,13 +40,14 @@ puts "I stopped running because now I am the number #{x}"
 
 #------------------------------------------------
 
-for e in 0..15
+for e in 0..30
     puts "o valor agora é #{e}"
 end
 
-(0..15).each do |e|
-    puts "o valor agora é #{e}"
+(0..50).each do |valor|
+    puts "o valor agora é #{valor}"
 end
+
 
 
 

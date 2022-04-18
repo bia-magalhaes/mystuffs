@@ -48,3 +48,42 @@ else
 end
 
 # -----------------------------------------------
+
+The logical operator and returns true if all conditions are true
+In other hand the logical operator or returns true if at least one condition is true
+
+Examples: 
+true and true == true
+true and false == false
+false and true == false
+false and false == false
+
+true or true == true
+true or false == true
+false or true == true
+false or false == false
+
+#---------------------------------------------------
+
+x is 1
+3 == 4
+false 
+5 == 5
+true 
+3 == 4 and 5 == 5
+false 
+3 == 4 or 5 == 5
+true 
+
+#----------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
